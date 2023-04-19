@@ -1,5 +1,5 @@
 # JSON Sniffer
-This program reads a JSON file provided and creates a schema based on the data types of the values in the `message` attribute. The schema includes a unique key for each attribute, the attribute's data type, and common fields like "tag", "description", and "required".
+This program reads a JSON file and creates a schema based on the data types of the values in the `message` attribute if it exists. The schema includes a unique key for each attribute, the attribute's data type, and common fields like "tag", "description", and "required".
 
 ## Setup
 1. Clone the repository
