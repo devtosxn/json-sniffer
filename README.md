@@ -22,7 +22,7 @@ source venv/bin/activate
 4. Install the requirements
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Running the Tests
