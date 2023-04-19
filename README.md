@@ -36,7 +36,7 @@ python3 main.py
 ```
 By default, the program runs in `strict` mode which means that any data type that is not defined in the project specification will be returned as "undefined" based on the specified rules.
 
-To run the program outside of `strict` mode, which adds additional data types to compensate for the undefined types, enter the command:
+To run the program outside of `strict` mode, which adds additional data types to compensate for the undefined types as defined in this [screenshot](https://github.com/devtosxn/json-sniffer/blob/main/datatypes.png), enter the command:
 
 ```
 python3 main.py nostrict
