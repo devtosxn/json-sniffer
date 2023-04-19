@@ -7,15 +7,19 @@ This program reads a JSON file and creates a schema based on the data types of t
 ```
 git clone https://github.com/devtosxn/json-sniffer.git
 ```
+2. Switch into root directory
 
-2. Create and activate a virtual environment
+```
+cd json-sniffer
+```
+
+3. Create and activate a virtual environment
 
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
-
-3. Install the requirements
+4. Install the requirements
 
 ```
 pip install -r requirements.txt
