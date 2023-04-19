@@ -66,7 +66,8 @@ class Sniffer:
                 json_data = json.load(file)
                 message_data = json_data.get("message", {})
                 if not message_data:
-                    print("No message attribute found")
+                    print("No message data found")
+                    return {}
                 schema = {}
                 for index, (key, value) in enumerate(message_data.items()):
                     new_key = "key_" + num2words(index + 1)
